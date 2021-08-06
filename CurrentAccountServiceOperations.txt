@@ -1,7 +1,7 @@
 Service Operations for: 	Current Account
 
 InCR Initiate A new Current Account
-	1   in  New Product
+	1	in	New Product
 	2	out	Product Instance Reference
 	3	out	Current Account Number
 	4	in	Customer Reference
@@ -27,6 +27,7 @@ InCR Initiate A new Current Account
 	24	inout	Date Type
 
 UpCR Update properties of an active current account
+	1	inout	New Product
 	2	inout	Product Instance Reference
 	3	inout	Current Account Number
 	4	inout	Customer Reference
